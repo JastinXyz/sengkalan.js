@@ -1,0 +1,25 @@
+{
+  "name": "sengkalan.js",
+  "version": "0.0.1",
+  "description": "Nodejs Package untuk menghasilkan candra sengkala ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JastinXyz/sengkalan.js.git"
+  },
+  "keywords": [
+    "sengkalan"
+  ],
+  "author": "JstnLT <contact@jstnlt.my.id>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JastinXyz/sengkalan.js/issues"
+  },
+  "homepage": "https://github.com/JastinXyz/sengkalan.js#readme",
+  "dependencies": {
+    "@kalenderjawa/petungan": "^1.0.0-alpha"
+  }
+}
