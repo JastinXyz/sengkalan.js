@@ -1,6 +1,6 @@
 {
   "name": "sengkalan.js",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Nodejs Package untuk menghasilkan candra sengkala ",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,11 @@
     "url": "git+https://github.com/JastinXyz/sengkalan.js.git"
   },
   "keywords": [
-    "sengkalan"
+    "sengkalan",
+    "sengkala",
+    "jawa",
+    "javanese",
+    "sengkala-jawa"
   ],
   "author": "JstnLT <contact@jstnlt.my.id>",
   "license": "MIT",
