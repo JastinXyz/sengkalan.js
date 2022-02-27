@@ -2,6 +2,11 @@ const { getmeaning, gen } = require("./models/function.js");
 var petungan = require("@kalenderjawa/petungan")
 
 const generate = async(tahun) => {
+  if(!tahun) throw new Error('[sengkalan.js] parameter tahun di butuhkan!')
+  if(isNaN(tahun)) throw new Error('[sengkalan.js] parameter tahun harus berupa angka!')
+  if(tahun < 1633) throw new Error('[sengkalan.js] parameter tahun harus lebih atau sama dengan dari 1633')
+  if(tahun > 4284) throw new Error('[sengkalan.js] parameter tahun harus kurang atau sama dengan dari 4284')
+
   var gene = gen(tahun, false)
   var jw = petungan.konversiTahunMasehiKeTahunJawa(tahun);
   var genej = gen(jw, false)
