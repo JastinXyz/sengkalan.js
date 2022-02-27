@@ -449,7 +449,7 @@ module.exports = {
       _pj_c += 1
     ) {
       ls = _pj_a[_pj_c];
-      hsl.push(module.exports.watak(Number.parseInt(ls)).toString());
+      hsl.push(module.exports.watak(Number.parseInt(ls)));
     }
 
     if(t) {
@@ -477,5 +477,8 @@ module.exports = {
         }
       }
     }
-  }
+  },
+  kapital: function kapital(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
 };
