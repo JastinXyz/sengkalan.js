@@ -12,6 +12,12 @@
 
 # Instalasi
 ```cli
+npm i sengkalan.js
+```
+
+**atau jika ingin menggunakan cli:**
+
+```cli
 npm i -g sengkalan.js
 ```
 
