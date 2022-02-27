@@ -1,7 +1,7 @@
 const { getmeaning, gen, kapital } = require("./models/function.js");
 var petungan = require("@kalenderjawa/petungan")
 
-const generate = async(tahun) => {
+const plain = async(tahun) => {
   if(!tahun) throw new Error('[sengkalan.js] parameter tahun di butuhkan!')
   if(isNaN(tahun)) throw new Error('[sengkalan.js] parameter tahun harus berupa angka!')
   if(tahun < 1633) throw new Error('[sengkalan.js] parameter tahun harus lebih atau sama dengan dari 1633')
@@ -33,4 +33,4 @@ const generate = async(tahun) => {
   return res + '\n\n' + resjv;
 }
 
-module.exports = generate;
+module.exports = plain;
