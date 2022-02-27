@@ -1,6 +1,6 @@
 {
   "name": "sengkalan.js",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Nodejs Package untuk menghasilkan candra sengkala ",
   "main": "index.js",
   "scripts": {
