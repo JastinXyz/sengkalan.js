@@ -1,4 +1,4 @@
-# [1.0.3](https://npmjs.com/package/sengkalan.js/v/1.0.3) - 27-02-2022
+# [1.0.4](https://npmjs.com/package/sengkalan.js/v/1.0.4) - 27-02-2022
 
 * Error handling jika parameter kosong, melebihi batas, kurang dari batas, dan bukan angka.
 * Menambahkan plain response.
