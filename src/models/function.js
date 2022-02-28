@@ -480,5 +480,18 @@ module.exports = {
   },
   kapital: function kapital(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
+},
+  emo: function emo(num) {
+    return num.toString()
+      .replace(/0/g, '0️⃣')
+      .replace(/1/g, '1️⃣')
+      .replace(/2/g, '2️⃣')
+      .replace(/3/g, '3️⃣')
+      .replace(/4/g, '4️⃣')
+      .replace(/5/g, '5️⃣')
+      .replace(/6/g, '6️⃣')
+      .replace(/7/g, '7️⃣')
+      .replace(/8/g, '8️⃣')
+      .replace(/9/g, '9️⃣');
+},
 }
-};
