@@ -5,7 +5,7 @@
 
 **sengkalan.js** merupakan hasil _porting_ dari [Sengkala Go](https://github.com/matriphe/sengkala) yang di tulis dalam Go dan terinspirasi dari [Sengkalan Python](https://github.com/lantip/sengkalan/) yang di tulis dalam Python.
 
-**sengkalan.js** juga bisa di jalankan memalui CLI 🕶️.
+**sengkalan.js** juga bisa di jalankan melalui CLI 🕶️.
 
 # Kebutuhan
 - nodejs v14 dan ke atas.
