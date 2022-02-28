@@ -94,10 +94,15 @@ sengkalanjs
 ```
 
 # Dokumentasi
-`<sengkalan>.generate(tahun)`: Untuk menghasilkan dalam bentuk JSON.
+`<sengkalan>.generate(tahun, [jumlah])`: Untuk menghasilkan dalam bentuk JSON. `[jumlah]` optional.
 
 ```js
 const res = await sengkalan.generate(2022)
+return res;
+
+// atau dengan jumlah yang di tentukan misalnya 5
+
+const res = await sengkalan.generate(2022, 5)
 return res;
 ```
 
